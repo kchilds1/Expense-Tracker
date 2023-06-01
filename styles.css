@@ -1,0 +1,50 @@
+* {
+    Box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color:green;
+}
+
+.expense-info {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap:10px;
+    font-size: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.add-expense {
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    color:#fafafa;
+    font-size: 15px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  padding-top: 20px;
+}
+
+th, td {
+  width: 25%;
+  text-align: center;
+}
