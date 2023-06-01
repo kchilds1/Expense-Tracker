@@ -17,6 +17,7 @@ h2 {
 
 .expense-info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
     gap:10px;
